@@ -1,0 +1,30 @@
+:root {
+    --text-primary:#d23f31;
+    --text-secondary:#343a40;
+    --text-grey:#6c757d;
+}
+a {
+    color: var(--text-primary) !important;
+}
+.text-primary{
+    color: var(--text-primary) !important;
+}
+.bg-primary {
+    background-color: var(--text-secondary)!important;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: hsla(0,0%,100%,.5) !important;
+}
+
+.subheading a{
+    color: var(--text-grey) !important;
+}
+.social-icons .social-icon:hover {
+    background-color: var(--text-primary);
+}
+.social-icons .social-icon {
+    color: #fff !important;
+}
